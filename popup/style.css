@@ -1,0 +1,78 @@
+.coinatner{
+     
+     height: 5vh;
+     width: 5vw;
+     display: flex;
+     justify-content: center;
+      
+     margin: 100px auto 0;
+     position: relative;
+}
+body{
+    background: linear-gradient(87.4deg, rgb(255, 241, 165) 1.9%, rgb(200, 125, 76) 49.7%, rgb(83, 54, 54) 100.5%);
+}
+.box{
+    background-color: aliceblue;
+    border: 2px solid;
+    height: 40vh;
+    width: 20vw;
+position:  absolute;
+ right: 10;
+}
+.check{
+    background-color: rgb(87, 157, 17);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    
+    border: 2px solid;
+    height: 7vh;
+    width: 10vw;
+    position:  absolute;  
+     
+    bottom: 247px;
+    right: 60px;
+border-radius: 4vh;
+ 
+}
+.box p,h2{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    margin-top: 40px; 
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+     transition: ease-in;
+}
+ .boxy{
+    visibility: visible;
+    transition: ease-out;
+ }
+ roxy{
+    visibility: hidden;
+
+ }
+#btna{
+    cursor: pointer;
+    height: 10vh;
+    width: 20vw;
+    background-color: blueviolet;
+    outline:none;
+    font-weight: 700;
+    font-size: large;
+    border: none;
+    color: rgb(6, 3, 1);
+}
+#btn{
+    cursor: pointer;
+    outline:none;
+    height: 5vh;
+    width: 5vw;
+    background-color:  rgb(87, 157, 17);
+}
